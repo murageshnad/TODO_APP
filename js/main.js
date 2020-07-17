@@ -5,7 +5,7 @@ let addtaskbtn = document.getElementById("addtaskbtn");
 addtaskbtn.addEventListener("click", function(){
     addtaskinputval = addtaskinput.value;
     if(addtaskinputval.trim()!=0){
-        console.log("addtaskinputval",addtaskinputval);
+        
         let webtask = localStorage.getItem("localtask");
         if(webtask == null){
             taskObj = [];
